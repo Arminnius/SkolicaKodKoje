@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="welcome page">
+        <link rel="stylesheet" href="styles.css" />
+
+        <title>Welcome page</title>
+
+    </head>
+    <body class="welcome-header">
+
+        <header class="main-header">
+
+            <nav class="nav main-nav">
+                <ul>
+                    <!-- <li><a href="index.html">HOME</a> </li> -->
+                    <a href="index.html">HOME</a>
+                    
+                </ul>
+                
+            </nav>
+            <nav class="nav main-nav">
+                <ul>
+                                    
+                    <a href="Aboutus.html">ACA</a>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <br/>
+            <!--Comments-->
+            <div class="container">
+                <h1 class="instruction-h1">WELCOME</h1>
+                <span class="text-welc">HTML, CSS, JavaSCRIPT practice</span>
+            </div>
+            
+
+            <!--
+            <div class="button-welcome">
+                <a href="index.html"><button class="btn-welc" type="button">SUBMIT</button></a>
+                <button class="btn-welc" type="button">USER INFO</button>
+            </div>
+            -->
+            <div class="button-welcome">
+                <button onclick="submitWelcFunc()" class="btn-welc" type="button">SUBMIT INFO</button>
+                <button onclick="userInfoWelcFunc()" class="btn-welc" type="button">USER INFO</button>
+                <button onclick="AboutusWelcFunc()" class="btn-welc" type="button">ABOUT</button>
+            </div>
+
+            <script>
+                function submitWelcFunc(){
+                    document.location.href="user_input.html";
+                }
+                function userInfoWelcFunc(){
+                    document.location.href="user_info.html";
+                }
+            </script>
+
+        </main>
+
+        <footer class="footer main-footer">
+            <a>This site is for testing purposes only</a>
+        </footer>
+    </body>
+
+</html>

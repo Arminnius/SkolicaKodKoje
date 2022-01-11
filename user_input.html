@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Typing personal information">
+        <link rel="stylesheet" href="styles.css" />
+
+        <title>Input page</title>
+
+    </head>
+    <body>
+
+        <header class="main-header">
+
+            <nav class="nav main-nav">
+                <ul>
+                    <!-- <li><a href="index.html">HOME</a> </li> -->
+                    <a href="index.html">HOME</a>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <!--Comments-->
+            <h2 class="instruction-h2">Need to Know Information</h2>
+            <br/>
+
+            <form class="form1">
+                <h3 class="headings-h3">Personal details</h3>
+                
+                <div class="info-row">
+                    <span class="info-row-name">First name</span>
+                    <div class="info-row-input"><input class="input-text" data-cy="first-name" type="text" /></div>
+                </div>
+                <div class="info-row">
+                    <span class="info-row-name">Last name</span>
+                    <div class="info-row-input"><input class="input-text" type="text" /></div>
+                </div>
+                <div class="info-row">
+                    <span class="info-row-name">Date of birth</span>
+                    <div class="info-row-input"><input class="input-text" type="date" /></div>
+                </div>
+                <div class="info-row">
+                    <span class="info-row-name">Personal email</span>
+                    <div class="info-row-input"><input class="input-text" type="email" /></div>
+                </div>
+                
+                </div>
+            </form>
+            <form class="form1">
+                <h3 class="headings-h3">Company information</h3>
+
+                <div class="info-row">
+                    <span class="info-row-name">Company name</span>
+                    <div class="info-row-input"><input class="input-text" type="text" /></div>
+                </div>
+                <div class="info-row">
+                    <span class="info-row-name">Office number</span>
+                    
+                    <div class="info-row-input"><input class="input-text" type="text" /></div>
+                </div>
+                <div class="info-row">
+                    <span class="info-row-name">Buisiness phone number</span>
+                    
+                    <div class="info-row-input"><input class="input-text" type="text" /></div>
+                </div>
+
+            </form>
+            
+            <div class="button-div">
+                <button class="btn" type="button">Submit</button>
+                <button onclick="cancelIndexFunc()" class="btn" type="button">Cancel</button>
+            </div>
+
+            <script>
+                function cancelIndexFunc(){
+                    document.location.href="index.html";
+                }
+            </script>
+        </main>
+
+        <footer class="footer main-footer">
+            <a>This site is for testing purposes only</a>
+        </footer>
+    </body>
+
+</html>

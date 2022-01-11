@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav a {
+    display: inline-block;
+    padding-top: .5em;
+    padding-bottom: 0.5em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+
+    /* background-color: rgba(255,255,255, .3); */
+    font-style: italic;
+}
+
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+
+}
+
+.instruction-h2 {
+    text-align: center;
+
+}
+
+.container {
+    text-align: center;
+}
+
+.instruction-h1 {
+    text-align: center;
+    background: #5CE0B0;
+    color: white;
+    font-size: 100px;
+    letter-spacing: 4px;
+    position: relative;
+    animation: text 2s 1;
+}
+
+@keyframes text {
+    0%{
+        color: #5CE0B0;
+        margin-bottom: -40px;
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: -40px;
+    }
+    85%{
+        letter-spacing: 4px;
+        margin-bottom: -40px;
+    }
+}
+
+.text-welc {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.main-header {
+    background-color: #5CE0B0;
+    background-size: cover;
+}
+
+.welcome-header {
+    background-color: #5CE0B0;
+}
+
+.form1 {
+    margin: auto;
+    border-color: rgb(192, 192, 192);
+    border-style: solid;
+    border-width: 1px;
+    max-width: 615px;
+    margin-bottom: 1em;
+
+}
+
+.formUserInfo {
+    display: inline-block;
+    border-color: rgb(192, 192, 192);
+    border-style: solid;
+    border-width: 1px;
+    
+    width: 240px;
+    height: 260px;
+    margin-bottom: 1em;
+}
+
+.main-footer{
+    background-color: #9CAEB4;
+    background-size: cover;
+    text-align: center;
+    padding: .90em;
+}
+
+.footer a {
+
+    color: white;
+
+}
+
+.button-div {
+    padding-left: 420px;
+    text-align: center;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+    background-color: #5CE0B0;
+    margin: 1em;
+    
+    color: rgb(255, 255, 255);
+    border: rgb(255, 255, 255);
+    border-radius: 0;
+    font-size: 1.1em;
+
+}
+
+.button-welcome {
+    text-align: center;
+    vertical-align: middle;
+    padding: 0px;
+    margin: 100px;
+    
+}
+
+.btn-welc {
+    margin: 1em;
+    background-color: #5CE0B0;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 0;
+    font-size: 1.5em;
+    width: 200px;
+    height: 50px;
+}
+
+.button-welcome :hover {
+    background-color: rgb(255, 255, 255, 0.3);
+}
+.button-div :hover {
+    background-color: rgba(138, 138, 138, 0.3);
+}
+
+.info-row {
+    display: inline-block;
+    padding-bottom: .em;
+    margin-bottom: .1em;
+    padding-left: 1.0em;
+}
+
+.info-row-name {
+    color: rgb(94, 94, 94);
+}
+
+.info-row-input {
+    padding-bottom: 15px;
+    padding-top: 5px;
+
+}
+
+.input-text {
+    width: 280px;
+    height: 50px;
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 0;
+    padding: 5px;
+    padding-left: 15px;
+    font-size: 20px;
+    color: rgb(94, 94, 94);
+}
+
+
+
+
+.headings-h3 {
+    padding-left: 0.8em;
+}
+
+.form3 {
+    margin: auto;
+    border-color: rgb(192, 192, 192);
+    border-style: solid;
+    border-width: 1px;
+    max-width: 615px;
+    height: 210px;
+    margin-bottom: 1em;
+}
+
+.iconDetails {
+    margin-left:3px;
+    margin-right:10px;
+   float:left; 
+   height:190px;
+   width:180px;	
+   } 
+   
+.container-user-info {
+       width:100%;
+       height:auto;
+       padding:1%;
+}
+
+.text-info-left {
+    font-size:.8em;
+    float:left;
+}
+
+.text-info-right {
+    float:right;
+    font-size:.8em;
+}
+   
+h4 {
+       margin:0px;
+       margin-left: 60px;
+       transition: linear 10px;
+}
