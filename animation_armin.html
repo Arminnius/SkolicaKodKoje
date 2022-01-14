@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<!-- usefull commands
+
+    border: 5px solid red;
+
+-->
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Page for personal information">
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="styles_animation.css" />
+
+        <title>Animation page</title>
+
+    </head>
+    <body class="body-armin">
+
+        <header class="main-header">
+
+            <nav class="nav main-nav">
+                <ul>
+                    <!-- <li><a href="index.html">HOME</a> style  </li> -->
+                    <a href="index.html">HOME</a>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="container-armin">
+                <div style="background-color:rgb(78, 221, 195, 0.3);width:360px;height:360px;border-radius: 50%;"></div>
+                <div style="background-color:rgb(78, 221, 195, 0.3);width:330px;height:330px;position:relative;top:-345px;left:15px;border-radius: 50%;"></div>
+                <div style="background-color:#4EDDC3;width:260px;height:260px;position:relative;top:-640px;left:50px;border-radius: 50%;"></div>
+                <div style="background-color:#131313;width:250px;height:250px;position:relative;top:-895px;left:55px;border-radius: 50%;"></div>
+                <div style="width:200px;height:200px;position:relative;top:-1040px;left:80px;border-radius: 50%; color: white; font-size: larger;">GOOD SOFTWARE TESTER</div>
+                
+                <!--<div class ="circle1"></div>
+                <div class="sub-container">
+                    <button class="rounded-button" type="button">
+                     GOOD SOFTWARE TESTER
+                    </button>
+                </div>-->
+             </div>
+            <div style="text-align: center;height: 160px;max-width: 1000px;margin: auto;">
+             
+                <button onclick="Technical_skills()" class="skills-box box-left"  type="button"><p style="font-size: larger;">Technical skills</p></button>
+                <button onclick="Analytical_skills()" class="skills-box box-right" type="button"><p style="font-size: larger;">Analytical skills</p></button>
+                
+            </div> 
+
+            <div style="padding-bottom: 150px;">
+             
+            </div>
+            <div style="text-align: center;height: 160px;max-width: 1000px;margin: auto;">
+             
+                <button onclick="Passion()" class="skills-box box-left" type="button"><p style="font-size: larger;">Passion</p></button>
+                <button onclick="Attitude()" class="skills-box box-right" type="button"><p style="font-size: larger;">GREAT Attitude</p></button>
+             
+            </div> 
+             
+            <div style="padding-bottom: 150px;">
+         
+            </div>
+            <div style="text-align: center;height: 160px;max-width: 1000px;margin: auto;">
+         
+            <button onclick="Communication()" class="skills-box box-left" type="button"><p style="font-size: larger;">Communication skills</p></button>
+            <button onclick="Abortus()" class="skills-box box-right" type="button"><p style="font-size: larger;">Abortus skills</p></button>
+            
+            <div id="myDIV1">
+                <p style="margin: 10px;">
+                    Basic knowledge of Database/ SQL, Basic knowledge of Linux commands,
+                    Knowledge and hands-on experience of a Test Management Tool,
+                    Knowledge and hands-on experience of any Defect Tracking tool,
+                    Knowledge and hands-on experience of Automation tool.
+                </p>
+            </div>
+            <div id="myDIV2">
+                <p style="margin: 10px;">
+                    A good software tester should have sharp analytical skills. 
+                    Analytical skills will help break up a complex software system
+                     into smaller units to gain a better understanding and create 
+                     test cases. Not sure that you have good analytical skills 
+                     – Refer this link – 
+                     if you can solve at least ONE problem you have excellent analytical skills
+                </p>
+            </div>
+            <div id="myDIV3">
+                <p style="margin: 10px;">
+                    To Excel in any profession or job, one must have a significant degree 
+                    of the passion for it. A software tester must have a passion for his / 
+                    her field. BUT how do you determine whether you have a passion for software
+                     testing if you have never tested before? Simple TRY it out and if 
+                     software testing does not excite you switch to something else that 
+                     holds your interest.
+                </p>
+            </div>
+            <div id="myDIV4">
+                <p style="margin: 10px;">
+                    To be a good software tester you must have a GREAT attitude. 
+                    An attitude to ‘test to break’, detail orientation, 
+                    willingness to learn and suggest process improvements. 
+                    In the software industry, technologies evolve with an overwhelming 
+                    speed, and a good software tester should upgrade his/her technical 
+                    Software testing skills with the changing technologies. 
+                    Your attitude must reflect a certain degree of independence where you take
+                     ownership of the task allocated and complete it without much direct 
+                     supervision. Basicly don't be like OGI :P
+                </p>
+            </div>
+            <div id="myDIV5">
+                <p style="margin: 10px;">
+                    A good software tester must have good verbal and written communication skill.
+                     Testing artifacts (like test cases/plans, test strategies, bug reports,
+                      etc.) created by the software tester should be easy to read and 
+                      comprehend. Dealing with developers (in the event of bugs or any
+                       other issue) will require a shade of discreetness and diplomacy.
+                </p>
+            </div>
+            <div id="myDIV6">
+                <p style="margin: 10px;">
+                    Abortus skill is a very important but very rare skill among Q/A
+                     testers and Web developers. Abortus is generally viewed as a
+                      philosophy or a "way of life" that is founded by a Ognjen 
+                      Bibercic, a young man with poor reading skills. The concept
+                       of "abortus" includes being a dick to everyone in the online
+                        meetings, even to yourself, as well as interrupting other
+                         people. The most important skill is misreading the names 
+                         of the HTML documents.
+                </p>
+            </div>
+
+            <script>
+                document.getElementById("myDIV1").style.display = "none";
+                function Technical_skills() {
+                    var x = document.getElementById("myDIV1");
+                    if (x.style.display !== "none") {
+                        x.style.display = "none";
+                    } else {
+                        x.style.display = "block";
+                    }
+                }
+                document.getElementById("myDIV2").style.display = "none";
+                function Analytical_skills() {
+                    var x = document.getElementById("myDIV2");
+                    if (x.style.display !== "none") {
+                        x.style.display = "none";
+                    } else {
+                        x.style.display = "block";}
+                    }
+                document.getElementById("myDIV3").style.display = "none";
+                function Passion() {
+                    var x = document.getElementById("myDIV3");
+                    if (x.style.display !== "none") {
+                        x.style.display = "none";
+                    } else {
+                        x.style.display = "block";
+                    }
+                }
+                document.getElementById("myDIV4").style.display = "none";
+                function Attitude() {
+                    var x = document.getElementById("myDIV4");
+                    if (x.style.display !== "none") {
+                        x.style.display = "none";
+                    } else {
+                        x.style.display = "block";
+                    }
+                }
+                document.getElementById("myDIV5").style.display = "none";
+                function Communication() {
+                    var x = document.getElementById("myDIV5");
+                    if (x.style.display !== "none") {
+                        x.style.display = "none";
+                    } else {
+                        x.style.display = "block";
+                    }
+                }
+                document.getElementById("myDIV6").style.display = "none";
+                function Abortus() {
+                    var x = document.getElementById("myDIV6");
+                    if (x.style.display !== "none") {
+                        x.style.display = "none";
+                    } else {
+                        x.style.display = "block";
+                    }
+                }
+            </script>
+        </main>
+
+        <footer class="footer main-footer">
+            <a>This site is for testing purposes only</a>
+        </footer>
+    </body>
+
+</html>
